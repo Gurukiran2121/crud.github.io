@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+       <div class="header">
+        <h1>CRUD Operations Using JS And Local Storage...</h1>
+       </div>
+
+<div class="box">
+
+                <div class="form">
+                            <form>  
+                                    <label for="">Name : </label>
+                                    <input type="text" placeholder="name" id="name">
+                                    <div id="msg"></div>
+                                    <input type="button" value="Submit" onclick="managedata()" id="but">
+                            </form>
+                           
+                </div>
+
+      
+
+
+                <div class="table">
+                            <table> 
+                                
+                                    <thead>
+                                            <tr>
+                                                <th>Sl NO</th>
+                                                <th>Name</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+                                            </tr>
+                                    </thead>
+                        
+                                    <tbody id="root">
+
+                                    </tbody>
+                            </table>
+                </div>
+
+    </div>
+
+
+
+
+    <script src="./Crud.js"></script>
+</body>
+</html>
